@@ -1,0 +1,93 @@
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+  }
+  .vcenter {
+     margin: auto;
+     margin-left: 10px;
+  }
+  
+  .mbr-section-title3 {
+    text-align: left;
+  }
+  
+  .display-5 {
+     font-family: 'Gotham-Book-Regular';
+     font-size: 1.4rem;
+  }
+  .mbr-bold {
+     font-weight: 700;
+  }
+  
+  .display-6 {
+     font-family: 'Gotham-Book-Regular';
+     font-size: 1.4rem;
+  }
+  
+  .fit100 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .img-circle {
+    border-radius: 50%;
+  }
+  
+  @media screen and (max-width:767px){
+    .wrap {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .img-wrap{
+      width:100%;
+    }
+    
+    .img-wrap img {
+      display: inline-block;
+    }
+    
+    .mbr-section-title3 {
+      text-align: center;
+    }
+
+    .card-wrap{
+      margin: 1rem;
+    }
+
+    img#hide {
+      display: none;
+    }
+  }
+
+  .timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
